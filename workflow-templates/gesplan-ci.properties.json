@@ -1,0 +1,5 @@
+{
+  "name": "Gesplan - validación CI",
+  "description": "Esqueleto CI: falla hasta configurar las pruebas y el build de la aplicación.",
+  "iconName": "octicon check-circle"
+}

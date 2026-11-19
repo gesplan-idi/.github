@@ -1,0 +1,14 @@
+name: Gesplan - validación CI
+on:
+  pull_request:
+    branches: [ $default-branch ]
+permissions:
+  contents: read
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Completar configuración del proyecto
+        run: |
+          echo 'Esta plantilla requiere añadir instalación, pruebas y build del proyecto.'
+          exit 1
