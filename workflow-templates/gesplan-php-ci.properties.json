@@ -1,0 +1,5 @@
+{
+  "name": "Gesplan - CI PHP",
+  "description": "Esqueleto para PHP: falla hasta adaptar Composer y pruebas.",
+  "iconName": "octicon check-circle"
+}
