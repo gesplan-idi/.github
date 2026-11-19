@@ -1,0 +1,17 @@
+name: Gesplan - CI Node
+on:
+  pull_request:
+    branches: [ $default-branch ]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # Tras revisar y fijar acciones a SHA: checkout, setup-node con la
+      # versión del proyecto y el gestor correspondiente; instalar desde lockfile.
+      # Añadir comandos obligatorios reales de lint, test y build.
+      - name: Adaptación obligatoria
+        run: |
+          echo 'Configure versión Node, lockfile, instalación, pruebas y build reales.'
+          exit 1

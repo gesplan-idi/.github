@@ -1,0 +1,17 @@
+name: Gesplan - CI PHP
+on:
+  pull_request:
+    branches: [ $default-branch ]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      # Tras revisar y fijar acciones a SHA: checkout y configuración de PHP
+      # y extensiones compatibles con composer.lock; ejecutar composer install.
+      # Añadir los scripts obligatorios reales de análisis y pruebas.
+      - name: Adaptación obligatoria
+        run: |
+          echo 'Configure versión PHP, extensiones, Composer y pruebas reales.'
+          exit 1
