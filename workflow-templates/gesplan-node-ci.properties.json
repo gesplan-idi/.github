@@ -1,0 +1,5 @@
+{
+  "name": "Gesplan - CI Node",
+  "description": "Esqueleto para Node: falla hasta adaptar instalación, pruebas y build.",
+  "iconName": "octicon check-circle"
+}
